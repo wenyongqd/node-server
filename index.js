@@ -16,7 +16,7 @@ let options = {
 };
 
 app.get("/", (req, res) => {
-  res.send("apiserver");
+  res.send("server is running successfully!");
 });
 
 app.get("/api/index", (req, res) => {
